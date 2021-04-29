@@ -1,0 +1,73 @@
+[Info]
+Version = 3
+
+[Object]
+Pmd1 = UserFile\Accessory\スカイドーム_夏の暑い午後TG1_配布物\Skydome_TG1\Dome_TG102_モーフ追加.pmx
+Pmd2 = UserFile\Effect\PowerShader v3.2\PSController.pmx
+Pmd3 = UserFile\Model\くむ式ジャミル・バイパー08\くむ式ジャミル・バイパー寮服07_改変.pmx
+Acs4 = UserFile\BackGround\モブ砂漠\モブ砂漠2.x
+Acs5 = UserFile\Effect\NCHLShader2\NCHLShader2\SoftLightA.x
+Acs6 = UserFile\Effect\PowerShader v3.2\AutoLuminousP.x
+Acs7 = UserFile\Effect\PowerShader v3.2\DiffusionP.x
+Acs8 = UserFile\Effect\空中に漂う埃_色変更\空中に漂う埃.x
+Acs9 = UserFile\Effect\o_SelfOverlay_v0_6\o_SelfOverlay_Blur.x
+Acs10 = UserFile\Effect\ikOverray改変_sky\ikOverray_晴天.x
+Acs11 = UserFile\Effect\ikOverray改変_sky\ikOverray_夕空.x
+Acs12 = UserFile\Effect\JetSmoke_v001\JetSmoke.x
+Acs13 = UserFile\Effect\JetSmoke_v001\JetSmoke.x
+Acs14 = UserFile\Effect\o_Tonemap_v0_7\o_Tonemap.x
+Acs15 = UserFile\Effect\レターボックス黒\レターボックス.x
+
+[Effect]
+Default = none
+Pmd1 = UserFile\Effect\PowerShader v3.2\Shader\Shader_Main_Skydome.fx
+Pmd1.show = true
+Pmd2 = none
+Pmd3 = UserFile\Effect\PowerShader v3.2\Shader\Shader_Main.fx
+Pmd3.show = true
+Pmd3[4] = UserFile\Effect\PowerShader v3.2\Shader\Shader_Main_NoShadow.fx
+Pmd3[29] = UserFile\Effect\PowerShader v3.2\Shader\Shader_Main_NoShadow.fx
+Acs4 = UserFile\Effect\PowerShader v3.2\Shader\Shader_Main.fx
+Acs4.show = true
+Acs8 = UserFile\Effect\空中に漂う埃_色変更\空中に漂う埃.fx
+Acs12 = UserFile\Effect\JetSmoke_v001\砂埃1b.fx
+Acs12.show = true
+Acs13 = UserFile\Effect\JetSmoke_v001\砂埃1b.fx
+Acs13.show = true
+
+[Effect@LinearDepthMapRT]
+Owner = Acs10
+Pmd1 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Pmd2 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Pmd3 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Acs4 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Acs5.show = false
+Acs6.show = false
+Acs7.show = false
+Acs8 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Acs9.show = false
+Acs10.show = false
+Acs11.show = false
+Acs12 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Acs13 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Acs14.show = false
+Acs15.show = false
+
+[Effect@LinearDepthMapRT(1)]
+Owner = Acs11
+Pmd1 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Pmd2 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Pmd3 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Acs4 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Acs5.show = false
+Acs6.show = false
+Acs7.show = false
+Acs8 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Acs9.show = false
+Acs10.show = false
+Acs11.show = false
+Acs12 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Acs13 = UserFile\Effect\ikOverray改変_sky\ikLinearDepth.fx
+Acs14.show = false
+Acs15.show = false
+
